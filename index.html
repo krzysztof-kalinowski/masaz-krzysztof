@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Masażu Krzysztof Kalinowski | Wrocław Śródmieście</title>
+    
+    <meta name="description" content="Kameralne studio masażu we Wrocławiu (Śródmieście / Ołbin). Poznaj Somayog i Technikę Alexandra blisko Nadodrza i Rynku. Zarezerwuj sesję na Booksy!">
+    
+    <!-- Informacja o wersjach językowych dla Google (SEO) -->
+    <link rel="alternate" hreflang="pl" href="https://twojadomena.pl/" />
+    <link rel="alternate" hreflang="en" href="https://twojadomena.pl/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://twojadomena.pl/" />
+
+    <!-- Dane Strukturalne Google (LocalBusiness Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MassageShop",
+      "name": "Studio Masażu Krzysztof Kalinowski",
+      "image": "https://twojadomena.pl/images/krzysztof.jpg",
+      "telephone": "+48509921693",
+      "email": "kalinowski.krzysztof@gmail.com",
+      "url": "https://twojadomena.pl",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Bolesława Prusa 89/1B",
+        "addressLocality": "Wrocław",
+        "addressRegion": "Dolnośląskie",
+        "postalCode": "50-316",
+        "addressCountry": "PL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "51.1198", 
+        "longitude": "17.0512"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Ołbin" },
+        { "@type": "AdministrativeArea", "name": "Śródmieście" },
+        { "@type": "AdministrativeArea", "name": "Nadodrze" },
+        { "@type": "AdministrativeArea", "name": "Wrocław" }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/masaz_krzysztof",
+        "https://www.facebook.com/masazKrzysztof"
+      ]
+    }
+    </script>
+    
+    <!-- Google Fonts: Jost, Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        studioGreen: '#42544f',
+                        studioBeige: '#efece3',
+                    },
+                    fontFamily: {
+                        jost: ['Jost', 'sans-serif'],
+                        caveat: ['Caveat', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-jost { font-family: 'Jost', sans-serif; letter-spacing: 0.05em; }
+        .font-caveat { font-family: 'Caveat', cursive; }
+    </style>
+</head>
+<body class="bg-studioBeige text-studioGreen font-jost selection:bg-studioGreen selection:text-studioBeige">
+
+    <!-- PASEK JĘZYKOWY -->
+    <div class="bg-studioGreen text-studioBeige/60 text-xs tracking-widest uppercase font-jost">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex justify-end space-x-4">
+            <span class="text-studioBeige font-medium">PL</span>
+            <span class="text-studioBeige/20">|</span>
+            <a href="en/" class="hover:text-studioBeige transition-colors duration-200">EN</a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="min-h-[80vh] bg-studioGreen text-studioBeige flex flex-col justify-center items-center text-center px-4 py-24 relative overflow-hidden">
+        <div class="mb-8 opacity-90 scale-125 select-none text-2xl tracking-widest font-jost">&gt;|<</div>
+        
+        <h1 class="font-jost text-4xl md:text-6xl font-normal uppercase tracking-widest mb-2">
+            Studio Masażu
+        </h1>
+        <p class="font-caveat text-3xl md:text-5xl text-studioBeige/90 mb-12">
+            Krzysztof Kalinowski
+        </p>
+        
+        <div class="max-w-2xl mx-auto mb-10 px-4">
+            <p class="text-lg md:text-xl font-light tracking-wide leading-relaxed">
+                Masaż dopasowany do Twoich potrzeb: od klasyki, przez celowaną ulgę w napięciach, po głęboki relaks z oddechem. Każda sesja z użyciem ciepłego olejku pomaga skutecznie rozpuścić napięcia i wyciszyć układ nerwowy. Wybierz swój sposób na reset i odetchnij od codzienności.
+            </p>
+        </div>
+
+        <a href="https://masazkrzysztof.booksy.com/c/" target="_blank" rel="noopener" class="bg-studioBeige text-studioGreen font-jost uppercase tracking-widest font-medium px-8 py-4 rounded-none hover:bg-opacity-90 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+			Zarezerwuj termin na Booksy
+		</a>
+    </header>
+
+    <!-- O MNIE SECTION -->
+    <section class="max-w-5xl mx-auto px-6 py-20 md:py-28">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-5 order-2 md:order-1">
+                <div class="border border-studioGreen/20 p-2 bg-white/50 shadow-sm">
+                    <img src="images/krzysztof.jpg" alt="Krzysztof Kalinowski - Masażysta Wrocław" class="w-full h-auto object-cover">
+                </div>
+            </div>
+            <div class="md:col-span-7 order-1 md:order-2 space-y-6 text-base md:text-lg text-studioGreen/90 leading-relaxed font-light">
+                <h2 class="font-jost text-2xl md:text-3xl uppercase tracking-wider border-b border-studioGreen/20 pb-4 text-studioGreen">
+                    Masaż i świadoma praca z ciałem (we Wrocławiu!)
+                </h2>
+                <p>
+					Jestem certyfikowanym masażystą i aktualnie uczestniczę w kursie nauczycielskim Somayog. W swojej praktyce łączę wiedzę z zakresu masażu z elementami Somayog oraz wybranymi elementami Techniki Alexandra. Praca z ciałem stała się moją prawdziwą pasją – to czas, w którym sam odnajduję ciszę i skupienie, a największą satysfakcję daje mi widok zrelaksowanego, uśmiechniętego klienta po zakończonej sesji.
+				</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SZEROKI BANER WIZUALNY -->
+    <section class="h-[40vh] md:h-[50vh] relative overflow-hidden bg-studioGreen">
+        <img src="images/salon.jpg" alt="Gabinet Masażu Wrocław Śródmieście" class="w-full h-full object-cover object-bottom opacity-80 contrast-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-studioGreen/40 to-transparent"></div>
+    </section>
+
+    <!-- OFERTA I CENNIK -->
+    <section class="bg-studioGreen/5 py-20 border-t border-b border-studioGreen/10">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="font-jost text-2xl md:text-3xl uppercase tracking-wider text-center mb-16">
+                Masaż zintegrowany z wiedzą Somayog i Techniką Alexandra
+            </h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- 1. Masaż klasyczny -->
+                <div class="bg-studioBeige border border-studioGreen/10 p-6 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-jost font-medium text-lg uppercase tracking-wide border-b border-studioGreen/20 pb-3 mb-4">
+                            1. Masaż klasyczny
+                        </h3>
+                        <p class="text-sm text-studioGreen/70 mb-6 font-light">
+                            Indywidualnie dopasowana sesja masażu ciepłym olejkiem. Skupiamy się na Twoich bieżących potrzebach i obszarach wymagających rozluźnienia.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center text-sm border-b border-studioGreen/5 pb-2">
+                            <span class="font-light">Klasyk (1h)</span>
+                            <span class="font-medium">200 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-center text-sm border-b border-studioGreen/5 pb-2">
+                            <span class="font-light">Klasyk Rozszerzony (1.5h)</span>
+                            <span class="font-medium">260 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="font-light">Klasyk Kompleksowy (2h)</span>
+                            <span class="font-medium">350 PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Celowana Uwaga -->
+                <div class="bg-studioBeige border border-studioGreen/20 p-6 shadow-md ring-1 ring-studioGreen/5 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-jost font-medium text-lg uppercase tracking-wide border-b border-studioGreen/20 pb-3 mb-4 text-studioGreen">
+                            2. Celowana Uwaga
+                        </h3>
+                        <p class="text-sm text-studioGreen/70 mb-6 font-light">
+                            Sesje skoncentrowane na kluczowych obszarach, w których najczęściej gromadzi się sztywność wynikająca ze stresu i siedzącego trybu życia.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-start text-sm border-b border-studioGreen/5 pb-2">
+                            <div class="flex flex-col">
+                                <span class="font-light">Plecy + Obręcz Barkowa + Szyja</span>
+                                <span class="text-xs text-studioGreen/60">1h</span>
+                            </div>
+                            <span class="font-medium">200 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-start text-sm border-b border-studioGreen/5 pb-2">
+                            <div class="flex flex-col">
+                                <span class="font-light">Plecy + Nogi + Pośladki</span>
+                                <span class="text-xs text-studioGreen/60">1h</span>
+                            </div>
+                            <span class="font-medium">200 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-start text-sm">
+                            <div class="flex flex-col">
+                                <span class="font-light">Plecy + Nogi + Obręcz Barkowa</span>
+                                <span class="text-xs text-studioGreen/60">1.5h</span>
+                            </div>
+                            <span class="font-medium">260 PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Relaks i Oddech -->
+                <div class="bg-studioBeige border border-studioGreen/10 p-6 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-jost font-medium text-lg uppercase tracking-wide border-b border-studioGreen/20 pb-3 mb-4">
+                            3. Relaks i Oddech
+                        </h3>
+                        <p class="text-sm text-studioGreen/70 mb-6 font-light">
+                            Masaż relaksacyjny ciepłym olejkiem połączony ze świadomą pracą z oddechem przeponowym w celu stymulacji nerwu błędnego.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center text-sm border-b border-studioGreen/5 pb-2">
+                            <span class="font-light">Głęboki spokój (1h)</span>
+                            <span class="font-medium">200 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-center text-sm border-b border-studioGreen/5 pb-2">
+                            <span class="font-light">Oddech do ciała (1.5h)</span>
+                            <span class="font-medium">260 PLN</span>
+                        </div>
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="font-light">Głębokie wyciszenie (2h)</span>
+                            <span class="font-medium">350 PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Zdjęcie detalu pracy pod cennikiem -->
+            <div class="max-w-4xl mx-auto mt-12 border border-studioGreen/10 p-2 bg-white/30 shadow-sm">
+                <img src="images/massage.jpg" alt="Praca z ciałem - gabinet masażu Wrocław" class="w-full h-80 md:h-[450px] object-cover object-bottom">
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://masazkrzysztof.booksy.com/c/" target="_blank" rel="noopener" class="inline-block bg-studioGreen text-studioBeige font-jost uppercase tracking-widest text-sm px-8 py-4 hover:bg-opacity-90 transition-all duration-300 shadow-sm">
+					Zarezerwuj sesję na Booksy
+				</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-studioGreen text-studioBeige/90 py-16 px-6 font-light text-sm">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="font-jost text-lg uppercase tracking-wider text-studioBeige mb-4">Kontakt</h3>
+                <p class="mb-2 font-medium text-base">Krzysztof Kalinowski Studio Masażu</p>
+                <p class="mb-1">ul. Bolesława Prusa 89/1B</p>
+                <p class="mb-4 text-xs text-studioBeige/60 tracking-wide">
+                    Wrocław Śródmieście (Ołbin) • Blisko Nadodrza i Rynku
+                </p>
+                <p class="mb-2">Tel: <a href="tel:+48509921693" class="hover:underline">+48 509 921 693</a></p>
+                <p>E-mail: <a href="mailto:kalinowski.krzysztof@gmail.com" class="hover:underline">kalinowski.krzysztof@gmail.com</a></p>
+            </div>
+            <div class="flex flex-col justify-between items-start md:items-end">
+                <div class="space-y-2 w-full md:text-right">
+                    <h3 class="font-jost text-lg uppercase tracking-wider text-studioBeige mb-4">Social Media</h3>
+                    <p>Instagram: <a href="https://www.instagram.com/masaz_krzysztof" target="_blank" rel="noopener" class="hover:underline">@masaz_krzysztof</a></p>
+                    <p>Facebook: <a href="https://www.facebook.com/masazKrzysztof" target="_blank" rel="noopener" class="hover:underline">masazKrzysztof</a></p>
+                </div>
+                <div class="mt-8 pt-6 border-t border-studioBeige/10 w-full md:text-right text-xs text-studioBeige/50">
+                    <p>Wszelkie prawa zastrzeżone © 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
